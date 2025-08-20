@@ -1,0 +1,19 @@
+{
+  "languages": {
+    "CSS": {
+      "language_servers": ["vtsls"],
+      "format_on_save": "on"
+    }
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "css": {
+          "lint": {
+            "unknownAtRules": "ignore"
+          }
+        }
+      }
+    }
+  }
+}
